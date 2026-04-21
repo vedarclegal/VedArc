@@ -1,0 +1,24 @@
+:root {
+  --ivory: 244 238 226;
+  --ink: 14 15 18;
+  --indigo: 27 31 59;
+  --brass: 181 137 74;
+  --oxblood: 107 26 26;
+  --parchment: 200 182 138;
+
+  --bg: var(--ivory);
+  --surface: 248 243 232;
+  --text: var(--ink);
+  --muted: 90 86 78;
+  --rule: 196 184 158;
+}
+
+.dark {
+  --bg: 14 15 18;
+  --surface: 21 22 27;
+  --text: 232 223 206;
+  --muted: 154 146 130;
+  --rule: 50 47 40;
+  --brass: 212 168 95;
+  --oxblood: 194 74 74;
+}

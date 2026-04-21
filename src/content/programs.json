@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "litigation-in-house-foundation",
+    "serial": "PROG / 01",
+    "track": "individual",
+    "audience": "In-House Counsel · Foundation",
+    "title": "Litigation for In-House Counsels",
+    "subtitle": "Strategy, Management & Courtroom Readiness — Foundation",
+    "summary": "Equip junior to mid-level in-house counsel with the practical mechanics of litigation — court processes, drafting pleadings, interim applications, evidence handling, and tribunal exposure across NCLT and DRT.",
+    "usp": "Manage disputes proactively, brief counsel intelligently, and read a case file like a litigator.",
+    "modules": [
+      "The litigation lifecycle and pre-litigation strategy",
+      "Drafting pleadings, interim applications, replies",
+      "Hearings, evidence handling, procedural compliance",
+      "Tribunal exposure: NCLT, DRT, consumer forums",
+      "Identifying legal and commercial risks early in disputes",
+      "Engaging external counsel and managing law-firm relationships"
+    ],
+    "duration": "8 weeks · weekend cohort",
+    "format": "Live online + case-study workshops"
+  },
+  {
+    "slug": "litigation-in-house-advanced",
+    "serial": "PROG / 02",
+    "track": "individual",
+    "audience": "In-House Counsel · Advanced",
+    "title": "Litigation for In-House Counsels",
+    "subtitle": "Strategy, Management & Courtroom Readiness — Advanced",
+    "summary": "Built for senior in-house counsel and legal managers handling complex disputes, multi-forum litigation, and arbitration. Aligns litigation strategy with business objectives and board-level reporting.",
+    "usp": "Lead high-stakes disputes with strategic clarity. Translate procedural reality into board-ready judgement.",
+    "modules": [
+      "Dispute strategy and multi-forum management",
+      "Arbitration and regulatory procedures",
+      "Coordination with senior counsel and law firms",
+      "Board-level reporting and stakeholder communication",
+      "Preventive litigation and cost management",
+      "Crisis litigation and reputational risk"
+    ],
+    "duration": "10 weeks · executive cohort",
+    "format": "Hybrid · live + on-site workshops"
+  },
+  {
+    "slug": "litigation-b2b",
+    "serial": "PROG / 03",
+    "track": "corporate",
+    "audience": "Corporate Legal Teams · Customised",
+    "title": "Litigation, Business to Business",
+    "subtitle": "Customised Corporate Program",
+    "summary": "Strengthens in-house teams' capability to manage disputes internally and reduce dependence on external counsel. Tailored to your sector, risk profile, and operational realities.",
+    "usp": "A bespoke litigation operating system for your legal function — built around your actual disputes.",
+    "modules": [
+      "Litigation risk assessment for your sector",
+      "External counsel coordination and benchmarking",
+      "Arbitration and regulatory procedure management",
+      "Preventive litigation strategies",
+      "Internal workflow optimisation",
+      "Optional simulations and scenario-based exercises"
+    ],
+    "duration": "Customised · 4–12 weeks",
+    "format": "On-site, online, or hybrid"
+  },
+  {
+    "slug": "contract-drafting-foundation",
+    "serial": "PROG / 04",
+    "track": "individual",
+    "audience": "Practising Advocates · Foundation",
+    "title": "Fundamentals of Contract Drafting",
+    "subtitle": "Foundation Program for Practising Advocates",
+    "summary": "Builds foundational contract drafting and advisory skill for advocates — emphasising clarity, enforceability, and real-world applicability under Indian law.",
+    "usp": "Draft contracts that are enforceable, precise, and dispute-ready.",
+    "modules": [
+      "Contract structure and core clauses",
+      "Indemnity, warranties, termination, governing law",
+      "Statutory compliance under Indian law",
+      "Common drafting pitfalls and how to avoid them",
+      "Practical drafting exercises with feedback"
+    ],
+    "duration": "6 weeks · evening cohort",
+    "format": "Live online"
+  },
+  {
+    "slug": "contracts-in-action",
+    "serial": "PROG / 05",
+    "track": "individual",
+    "audience": "Practising Advocates · Advanced",
+    "title": "Contracts in Action",
+    "subtitle": "Practical Bootcamp · Advanced",
+    "summary": "An advanced advisory and commercial drafting program integrating strategic thinking with litigation outcomes. Built for advocates advising corporate clients.",
+    "usp": "Drafting and advisory expertise that integrates commercial insight with litigation-informed strategy.",
+    "modules": [
+      "Risk allocation and clause redlining",
+      "Negotiation strategies for commercial contracts",
+      "Dispute-ready drafting",
+      "Alignment with business objectives",
+      "Learning from real disputes and arbitration outcomes",
+      "Advisory memo-writing and client communication"
+    ],
+    "duration": "8 weeks · weekend bootcamp",
+    "format": "Hybrid"
+  },
+  {
+    "slug": "contract-drafting-universities",
+    "serial": "PROG / 06",
+    "track": "academic",
+    "audience": "Universities & Law Schools",
+    "title": "Contract Drafting for Universities",
+    "subtitle": "Institutional Program · Law Students",
+    "summary": "Bulk training tailored for law schools. Students learn practical drafting, dispute-relevance, and applied exercises customised to academic stage and institutional requirements.",
+    "usp": "Equip students with practice-ready contract drafting skills they can use the day they qualify.",
+    "modules": [
+      "Drafting fundamentals and clause anatomy",
+      "Clause interpretation and statutory context",
+      "Simulated drafting exercises with feedback",
+      "Exposure to tribunal and arbitration processes",
+      "Adaptable for semester courses, workshops, or bootcamps"
+    ],
+    "duration": "Customised · semester / workshop / bootcamp",
+    "format": "On-campus, online, or hybrid"
+  },
+  {
+    "slug": "litigation-universities",
+    "serial": "PROG / 07",
+    "track": "academic",
+    "audience": "Universities & Law Schools",
+    "title": "Litigation Training for Universities",
+    "subtitle": "Institutional Program · Law Students",
+    "summary": "Litigation-focused training that bridges academic learning and real-world practice — court procedures, pleadings, hearings, evidence handling, and dispute strategy.",
+    "usp": "Prepare students for practice-ready careers in litigation, with mock exercises and tribunal exposure.",
+    "modules": [
+      "Court procedures and the litigation lifecycle",
+      "Pleadings, hearings, evidence handling",
+      "Dispute strategy and case-study simulation",
+      "Mock litigation exercises and tribunal exposure",
+      "Pathways to litigation and corporate advisory careers"
+    ],
+    "duration": "Customised · semester / intensive",
+    "format": "On-campus or hybrid"
+  }
+]

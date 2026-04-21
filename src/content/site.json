@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "name": "VedArc Legal",
+    "short": "VedArc",
+    "tagline": "A modern veda for Indian legal practice.",
+    "description": "VedArc Legal is a comprehensive legal upskilling platform designed for in-house counsels and corporate legal teams who manage litigation and legal risk without structured exposure to court processes. It also serves practising advocates seeking to develop contract drafting and advisory capability."
+  },
+  "nav": [
+    { "label": "Home", "to": "/", "numeral": "I" },
+    { "label": "About", "to": "/about", "numeral": "II" },
+    { "label": "Programs", "to": "/programs", "numeral": "III" },
+    { "label": "Partnerships", "to": "/partnerships", "numeral": "IV" },
+    { "label": "Contact", "to": "/contact", "numeral": "V" }
+  ],
+  "footer": {
+    "address": "VedArc Legal · New Delhi, India",
+    "email": "hello@vedarclegal.in",
+    "social": [
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/" },
+      { "label": "Email", "href": "mailto:hello@vedarclegal.in" }
+    ],
+    "legal": [
+      { "label": "Terms of Use", "to": "/legal/terms" },
+      { "label": "Privacy Policy", "to": "/legal/privacy" },
+      { "label": "Refund Policy", "to": "/legal/refund" },
+      { "label": "Cookies", "to": "/legal/cookies" }
+    ],
+    "colophon": "Set in Fraunces and EB Garamond. Made in India, MMXXVI."
+  },
+  "pillars": [
+    {
+      "numeral": "I",
+      "title": "Cross-Skilling Expertise",
+      "body": "Litigation insight for corporate lawyers; advisory competence for practising advocates."
+    },
+    {
+      "numeral": "II",
+      "title": "Practice-Led Learning",
+      "body": "Real disputes, real contracts, real decision-making. No abstractions, no recycled lectures."
+    },
+    {
+      "numeral": "III",
+      "title": "Indian Legal Context",
+      "body": "Designed around domestic statutes, tribunals, corporate frameworks, and procedural realities."
+    },
+    {
+      "numeral": "IV",
+      "title": "Expert-Led Faculty",
+      "body": "Delivered by in-house counsels, practising advocates, retired judges, and legal researchers."
+    }
+  ],
+  "audiences": [
+    {
+      "label": "In-House Counsel",
+      "summary": "Manage disputes, brief external counsel, and report to the board with procedural fluency."
+    },
+    {
+      "label": "Practising Advocates",
+      "summary": "Build contract drafting and advisory capability that wins commercial mandates."
+    },
+    {
+      "label": "Corporate Legal Teams",
+      "summary": "Customised programs anchored in your sector, your disputes, your risk profile."
+    },
+    {
+      "label": "Universities & Law Schools",
+      "summary": "Practice-ready training in litigation and contracts for students entering the profession."
+    }
+  ]
+}
