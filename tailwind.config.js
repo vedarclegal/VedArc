@@ -40,7 +40,7 @@ export default {
         rule: 'rgb(var(--rule) / <alpha-value>)',
       },
       fontFamily: {
-        display: ['"Fraunces Variable"', 'Fraunces', 'ui-serif', 'Georgia', 'serif'],
+        display: ['"Cormorant Garamond Variable"', '"Cormorant Garamond"', 'ui-serif', 'Georgia', 'serif'],
         serif: ['"EB Garamond"', 'ui-serif', 'Georgia', 'serif'],
         mono: ['"Geist Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
       },

@@ -58,7 +58,7 @@ export function Seal({ size = 48, animated = false, className = '' }: Props) {
         x="32"
         y="37"
         textAnchor="middle"
-        fontFamily="Fraunces Variable, serif"
+        fontFamily="Cormorant Garamond Variable, serif"
         fontStyle="italic"
         fontSize="14"
         fill="rgb(var(--text))"

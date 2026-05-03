@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 import { motion, useInView } from 'motion/react';
-import { Seal } from '../primitives/Seal';
+import { BrandLogo } from '../primitives/BrandLogo';
 import { BrassRule } from '../primitives/BrassRule';
 import { editorial } from '../../lib/motion';
 import site from '../../content/site.json';
@@ -33,8 +33,8 @@ export function Footer() {
             animate={inView ? { opacity: 1, y: 0 } : undefined}
             transition={{ duration: 0.8, ease: editorial }}
           >
-            <div className="flex items-start gap-4">
-              <Seal size={56} />
+            <div className="flex flex-col items-start gap-6 sm:flex-row">
+              <BrandLogo className="h-auto w-32 shrink-0 drop-shadow-[0_6px_14px_rgba(14,15,18,0.10)]" />
               <div>
                 <p className="font-display text-display-sm italic leading-tight text-balance">
                   A modern veda for Indian legal practice.
@@ -50,7 +50,6 @@ export function Footer() {
             {site.nav.map((n) => (
               <li key={n.to}>
                 <Link to={n.to} className="editorial-link text-text/85 hover:text-text" data-cursor="link">
-                  <span className="text-brass mr-2 text-[10px] font-mono align-baseline">{n.numeral}</span>
                   {n.label}
                 </Link>
               </li>
@@ -97,7 +96,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col-reverse items-start justify-between gap-4 md:flex-row md:items-center">
-          <p className="micro">© MMXXVI VedArc Legal · All rights reserved</p>
+          <p className="micro">© 2026 VedArc Legal · All rights reserved</p>
           <p className="micro text-muted/80 max-w-md md:text-right">
             {typed}
             {typed.length < site.footer.colophon.length && (

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion, useMotionValue, useSpring } from 'motion/react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
-import { Seal } from '../primitives/Seal';
+import { BrandLogo } from '../primitives/BrandLogo';
 import { useTheme } from '../../hooks/useTheme';
 import { editorial, wipe } from '../../lib/motion';
 import { cn } from '../../lib/cn';
@@ -21,19 +21,6 @@ export function Nav() {
   const sy = useMotionValue(0);
   const ssx = useSpring(sx, { stiffness: 220, damping: 18, mass: 0.4 });
   const ssy = useSpring(sy, { stiffness: 220, damping: 18, mass: 0.4 });
-  const sealRotate = useMotionValue(0);
-  const sealRotateSpring = useSpring(sealRotate, { stiffness: 80, damping: 14 });
-
-  // Periodic seal heartbeat
-  useEffect(() => {
-    const tick = () => {
-      sealRotate.set(sealRotate.get() + 6);
-      setTimeout(() => sealRotate.set(sealRotate.get() - 6), 1800);
-    };
-    const id = setInterval(tick, 9000);
-    return () => clearInterval(id);
-  }, [sealRotate]);
-
   useEffect(() => setOpen(false), [loc.pathname]);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -52,7 +39,7 @@ export function Nav() {
             : 'border-b border-transparent',
         )}
       >
-        <div className="container-editorial flex items-center justify-between py-4 md:py-5">
+        <div className="container-editorial flex items-center justify-between py-3.5 md:py-4">
           <Link
             ref={sealRef}
             to="/"
@@ -70,13 +57,9 @@ export function Nav() {
               sy.set(0);
             }}
           >
-            <motion.span style={{ x: ssx, y: ssy, rotate: sealRotateSpring, display: 'inline-block' }}>
-              <Seal size={36} />
+            <motion.span style={{ x: ssx, y: ssy, display: 'inline-block' }}>
+              <BrandLogo className="h-14 w-auto brightness-105 contrast-110 saturate-110 drop-shadow-[0_6px_14px_rgba(181,137,74,0.16)] md:h-16" />
             </motion.span>
-            <span className="hidden md:flex flex-col leading-none">
-              <span className="font-display text-lg italic tracking-tight">VedArc</span>
-              <span className="micro mt-0.5">Legal · Est. MMXXVI</span>
-            </span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8 lg:gap-10">
@@ -94,7 +77,6 @@ export function Nav() {
               >
                 {({ isActive }) => (
                   <span className="relative inline-flex items-center gap-2">
-                    <span className="text-brass/80 text-[10px]">{item.numeral}</span>
                     <span>{item.label}</span>
                     <span
                       className={cn(
@@ -176,7 +158,6 @@ export function Nav() {
                     transition={{ delay: 0.18 + i * 0.07, duration: 0.6, ease: editorial }}
                   >
                     <NavLink to={item.to} end={item.to === '/'} className="group flex items-baseline gap-5">
-                      <span className="micro w-6 text-brass">{item.numeral}</span>
                       <span className="font-display text-[44px] leading-[1.05] italic transition-colors group-hover:text-brass">
                         {item.label}
                       </span>

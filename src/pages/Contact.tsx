@@ -46,10 +46,7 @@ export default function Contact() {
       </Helmet>
 
       <section className="container-editorial py-24 lg:py-40 relative overflow-hidden">
-        <div className="pointer-events-none absolute right-6 top-12 select-none lg:right-12">
-          <span className="font-display italic text-[120px] sm:text-[180px] lg:text-[260px] leading-none text-brass/[0.07]">V</span>
-        </div>
-        <Eyebrow numeral="V">Begin a Conversation</Eyebrow>
+        <Eyebrow>Begin a Conversation</Eyebrow>
         <div className="mt-10 max-w-5xl">
           <SplitHeading as="h1" text="Tell us where" className="text-display-lg leading-[0.95] tracking-tight" />
           <SplitHeading as="h1" text="you stand." className="text-display-lg leading-[0.95] tracking-tight italic text-text/85" delay={0.18} italic />
@@ -178,7 +175,7 @@ export default function Contact() {
                     <p className="mt-4 text-text/80 max-w-md">
                       Thank you. A member of our team will write back within two working days.
                     </p>
-                    <p className="micro mt-8 text-brass">VL · MMXXVI</p>
+                    <p className="micro mt-8 text-brass">VL · 2026</p>
                   </div>
                 </motion.div>
               )}

@@ -6,11 +6,11 @@
     "description": "VedArc Legal is a comprehensive legal upskilling platform designed for in-house counsels and corporate legal teams who manage litigation and legal risk without structured exposure to court processes. It also serves practising advocates seeking to develop contract drafting and advisory capability."
   },
   "nav": [
-    { "label": "Home", "to": "/", "numeral": "I" },
-    { "label": "About", "to": "/about", "numeral": "II" },
-    { "label": "Programs", "to": "/programs", "numeral": "III" },
-    { "label": "Partnerships", "to": "/partnerships", "numeral": "IV" },
-    { "label": "Contact", "to": "/contact", "numeral": "V" }
+    { "label": "Home", "to": "/" },
+    { "label": "About", "to": "/about" },
+    { "label": "Programs", "to": "/programs" },
+    { "label": "Partnerships", "to": "/partnerships" },
+    { "label": "Contact", "to": "/contact" }
   ],
   "footer": {
     "address": "VedArc Legal · New Delhi, India",
@@ -20,31 +20,27 @@
       { "label": "Email", "href": "mailto:hello@vedarclegal.in" }
     ],
     "legal": [
-      { "label": "Terms of Use", "to": "/legal/terms" },
+      { "label": "Terms and Conditions", "to": "/legal/terms" },
       { "label": "Privacy Policy", "to": "/legal/privacy" },
-      { "label": "Refund Policy", "to": "/legal/refund" },
-      { "label": "Cookies", "to": "/legal/cookies" }
+      { "label": "Intellectual Property", "to": "/legal/intellectual-property" },
+      { "label": "Cookie Policy", "to": "/legal/cookies" }
     ],
-    "colophon": "Set in Fraunces and EB Garamond. Made in India, MMXXVI."
+    "colophon": "Set in Cormorant Garamond and EB Garamond. Made in India, 2026."
   },
   "pillars": [
     {
-      "numeral": "I",
       "title": "Cross-Skilling Expertise",
       "body": "Litigation insight for corporate lawyers; advisory competence for practising advocates."
     },
     {
-      "numeral": "II",
       "title": "Practice-Led Learning",
       "body": "Real disputes, real contracts, real decision-making. No abstractions, no recycled lectures."
     },
     {
-      "numeral": "III",
       "title": "Indian Legal Context",
       "body": "Designed around domestic statutes, tribunals, corporate frameworks, and procedural realities."
     },
     {
-      "numeral": "IV",
       "title": "Expert-Led Faculty",
       "body": "Delivered by in-house counsels, practising advocates, retired judges, and legal researchers."
     }

@@ -12,22 +12,18 @@ import { Spotlight } from '../components/primitives/Spotlight';
 
 const differentiators = [
   {
-    numeral: 'I',
     title: 'Cross-Skilling Expertise',
-    body: 'Litigation insight for corporate lawyers; advisory competence for practising advocates. We teach the side of practice you were never trained for.',
+    body: "Litigation insight for corporate lawyers; advisory competence for practising advocates. We don't teach in silos — we upskill and cross-skill.",
   },
   {
-    numeral: 'II',
     title: 'Practice-Led Learning',
     body: 'Every program is anchored in real disputes, real contracts, and real decisions. No abstract theory, no recycled content.',
   },
   {
-    numeral: 'III',
     title: 'Indian Legal Context',
     body: 'Programs are designed around domestic statutes, tribunals, and the procedural realities of NCLT, DRT, and high courts.',
   },
   {
-    numeral: 'IV',
     title: 'Expert-Led Faculty',
     body: 'In-house counsels, practising advocates, retired judges, professors, and legal researchers — taught by those who do.',
   },
@@ -41,10 +37,10 @@ const philosophyPoints = [
 ];
 
 const panel = [
-  { initials: 'AK', name: 'In-House Counsels', role: 'Corporate · Litigation', serial: 'I' },
-  { initials: 'RS', name: 'Practising Advocates', role: 'Firms · MNCs', serial: 'II' },
-  { initials: 'PM', name: 'Professors', role: 'Doctrine · Research', serial: 'III' },
-  { initials: 'JN', name: 'Retired Judges', role: 'Tribunals · Bench', serial: 'IV' },
+  { initials: 'AK', name: 'In-House Counsels', role: 'Corporate · Litigation' },
+  { initials: 'RS', name: 'Practising Advocates', role: 'Firms · MNCs' },
+  { initials: 'PM', name: 'Professors', role: 'Doctrine · Research' },
+  { initials: 'JN', name: 'Retired Judges', role: 'Tribunals · Bench' },
 ];
 
 export default function About() {
@@ -61,11 +57,8 @@ export default function About() {
 
       {/* HERO */}
       <section ref={heroRef} className="container-editorial py-24 lg:py-40 relative overflow-hidden">
-        <div className="pointer-events-none absolute right-6 top-12 select-none lg:right-12">
-          <span className="font-display italic text-[120px] sm:text-[180px] lg:text-[260px] leading-none text-brass/[0.07]">II</span>
-        </div>
         <motion.div style={{ y: heroY }}>
-          <Eyebrow numeral="II">About VedArc Legal</Eyebrow>
+          <Eyebrow>About VedArc Legal</Eyebrow>
           <div className="mt-10 max-w-5xl">
             <SplitHeading as="h1" text="A collective of" className="text-display-lg leading-[0.95] tracking-tight" />
             <SplitHeading as="h1" text="practising lawyers" className="text-display-lg leading-[0.95] tracking-tight italic text-text/80" delay={0.18} italic />
@@ -130,7 +123,7 @@ export default function About() {
         <div className="container-editorial">
           <div className="grid gap-16 lg:grid-cols-12">
             <div className="lg:col-span-3">
-              <Eyebrow numeral="I">Who We Are</Eyebrow>
+              <Eyebrow>Who We Are</Eyebrow>
             </div>
             <div className="lg:col-span-8 lg:col-start-5 prose-editorial space-y-7 text-[18px] leading-[1.7] text-text/90">
               <Reveal>
@@ -173,7 +166,7 @@ export default function About() {
 
       {/* DIFFERENTIATORS */}
       <section className="container-editorial py-32 lg:py-44">
-        <Eyebrow numeral="II">What Makes Us Different</Eyebrow>
+        <Eyebrow>What Makes Us Different</Eyebrow>
         <Reveal>
           <h2 className="mt-6 font-display text-display-md leading-[1.05] max-w-3xl">
             Not a conventional law academy — and never trying to be.
@@ -182,11 +175,10 @@ export default function About() {
 
         <ul className="mt-16 grid gap-px bg-rule lg:grid-cols-2">
           {differentiators.map((d, i) => (
-            <Reveal as="li" key={d.numeral} delay={i * 0.07} className="bg-bg group relative overflow-hidden">
+            <Reveal as="li" key={d.title} delay={i * 0.07} className="bg-bg group relative overflow-hidden">
               <Spotlight className="p-10 lg:p-12">
-                <div className="flex items-baseline gap-4 mb-5">
-                  <span className="font-mono text-[11px] uppercase tracking-widest text-brass">{d.numeral}</span>
-                  <motion.span className="h-px bg-brass/40" initial={{ width: 64 }} whileHover={{ width: 160 }} />
+                <div className="mb-5">
+                  <motion.span className="block h-px bg-brass/40" initial={{ width: 64 }} whileHover={{ width: 160 }} />
                 </div>
                 <h3 className="font-display text-2xl lg:text-[30px] leading-tight transition-transform duration-500 group-hover:-translate-y-0.5">
                   {d.title}
@@ -202,10 +194,10 @@ export default function About() {
       <section className="container-editorial py-32 lg:py-44">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-4">
-            <Eyebrow numeral="III">Our Panel & Speakers</Eyebrow>
+            <Eyebrow>Our Panel & Speakers</Eyebrow>
             <Reveal>
               <h2 className="mt-6 font-display text-display-sm leading-tight italic">
-                Multi-dimensional insight, from chamber to courtroom.
+                From bar rooms to legal heads.
               </h2>
             </Reveal>
             <Reveal delay={0.1}>
@@ -223,7 +215,6 @@ export default function About() {
                   initials={p.initials}
                   name={p.name}
                   role={p.role}
-                  serial={p.serial}
                   delay={i * 0.08}
                 />
               </li>
@@ -234,11 +225,8 @@ export default function About() {
 
       {/* PHILOSOPHY */}
       <section className="bg-indigo text-ivory py-32 lg:py-44 relative overflow-hidden">
-        <div className="pointer-events-none absolute -right-12 top-12 select-none">
-          <span className="font-display italic text-[180px] lg:text-[280px] leading-none text-brass/[0.08]">IV</span>
-        </div>
         <div className="container-editorial relative">
-          <Eyebrow numeral="IV" className="text-ivory/70">Our Philosophy</Eyebrow>
+          <Eyebrow className="text-ivory/70">Our Philosophy</Eyebrow>
           <Reveal>
             <h2 className="mt-8 font-display text-display-md leading-[1.05] italic max-w-4xl text-balance">
               Inspired by the concept of a Modern Veda for legal professionals.

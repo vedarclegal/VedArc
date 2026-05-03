@@ -1,0 +1,104 @@
+﻿VEDARC LEGAL
+TERMS AND CONDITIONS
+
+Effective Date: 3 May 2026
+Last Updated: 3 May 2026
+Applies to: All users of the Vedarc Legal platform
+
+By continuing to use the Vedarc Legal platform after the Last Updated date above, you accept these terms as binding. If you do not agree, you must cease use of the Platform immediately.
+
+1. About Us
+Vedarc Legal is a sole proprietorship operated by its proprietor, with correspondence address in New Delhi, India ("Vedarc Legal", "we", "us", "our"). We operate an online cross-skilling legal education platform at www.vedarclegal.com (the "Platform"), offering courses, live video sessions, and corporate and institutional training programmes to legal professionals, law students, and organisations.
+These Terms and Conditions ("Terms") govern your access to and use of the Platform. They constitute a binding contract under the Indian Contract Act, 1872. Read them carefully before using the Platform.
+2. Who Can Use the Platform
+You must be at least 18 years of age and legally competent to enter into contracts under Indian law. By using the Platform, you confirm that you meet these requirements and that all information you provide is accurate and current. If you are using the Platform on behalf of a corporate or institutional client, you confirm that you have authority to bind that organisation.
+We reserve the right to verify your professional credentials - including bar enrolment number or institutional affiliation - and to suspend access where information provided is found to be inaccurate or misleading.
+3. Enrolment and Course Access
+3.1 How Enrolment Works
+Enrolment in a course or programme is completed upon successful payment. Access is activated immediately upon payment confirmation. Each course specifies a fixed Access Period (for example, 15 or 30 days). Your access expires automatically at the end of that period, regardless of how much content you have consumed. Extensions, where available, are subject to an additional fee.
+3.2 Personal and Non-Transferable
+Your enrolment is strictly personal. You may not share your login credentials, permit any other person to use your account, or allow a single enrolment to be accessed by more than one individual. Any such conduct constitutes a material breach of these Terms and will result in immediate account termination without refund.
+3.3 Live Sessions and Mentorship
+Where a programme includes live video sessions, these are conducted via our designated video platform. Session schedules are communicated in advance. We will make reasonable efforts to maintain the published schedule but reserve the right to reschedule due to circumstances beyond our control. We will provide notice of any rescheduling as early as reasonably possible.
+Live sessions are not recorded for replay unless this is explicitly stated in the programme description.
+3.4 On-Premises B2B Training
+Where Vedarc Legal agrees to deliver training at a corporate or institutional client's premises, the terms of that engagement - including scheduling, venue obligations, fees, and participant minimums - are governed by a separate written agreement with that client. In the event of conflict between that agreement and these Terms, the written agreement prevails for that engagement only.
+3.5 Technical Requirements
+You are responsible for ensuring your device and internet connection meet the minimum requirements to access the Platform. We recommend a stable connection of at least 5 Mbps for video content. We are not liable for any inability to access content due to your hardware, software, or connectivity.
+4. Fees and Payment
+4.1 Pricing
+All fees are displayed on the Platform in Indian Rupees (INR). Taxes, including GST, will be applied where applicable under law. Currently, no GST is charged; this will be updated in these Terms and reflected in invoices when it becomes applicable.
+4.2 Payment via UPI
+We accept payment exclusively via UPI. Enrolment is confirmed only upon successful receipt of payment. If a payment is debited but confirmation is not received, contact support@vedarclegal.com with your transaction reference and we will investigate within 3 business days.
+4.3 Invoicing
+An invoice will be issued electronically to your registered email address following payment. It is your responsibility to provide accurate billing details at the time of purchase. Invoices cannot be amended retrospectively.
+5. No Refund Policy
+All sales are final. Given the proprietary and immediately accessible nature of our digital content and live session commitments, we do not offer refunds once access has been activated. We strongly encourage all prospective users to review available sample materials and course descriptions before purchasing.
+The sole exception is a verified duplicate payment for the same course in a single session, which will be refunded within 10 business days of verification.
+Initiating a chargeback or payment dispute without first contacting us constitutes a breach of these Terms. We reserve the right to suspend your account and recover all associated administrative and legal costs in such circumstances.
+6. No Certification
+Vedarc Legal does not issue certificates of completion. This is a deliberate choice: we believe the value of legal cross-skilling lies in the depth of understanding developed, not in the credential obtained. Nothing in our materials or communications shall be construed as a representation that completion of any programme will result in any certification, academic credit, or professional recognition by any bar council, regulatory authority, university, or employer.
+7. Intellectual Property
+7.1 Our Content
+All content on the Platform - including course videos, written materials, case study frameworks, legal templates, assessments, and branding - is the exclusive intellectual property of Vedarc Legal, protected under the Copyright Act, 1957, the Trade Marks Act, 1999, the Information Technology Act, 2000, and applicable international IP conventions. No enrolment or payment transfers any ownership interest in any content to you.
+7.2 What You May Do
+Your enrolment grants you a limited, personal, non-transferable, revocable licence to access the enrolled course content during the Access Period, solely for your own professional learning. This licence grants no right to download, reproduce, distribute, or use the content beyond personal viewing.
+7.3 What You May Not Do
+You must not, under any circumstances:
+• record, screenshot, or otherwise capture any course content or live session;
+• share, distribute, upload, forward, or make available any content to any third party, through any medium including messaging applications, social media, file-sharing platforms, or email;
+• use any content to develop, train, or improve any artificial intelligence or machine learning model or system;
+• reproduce or republish any content for commercial purposes or client delivery;
+• circumvent, remove, or interfere with any digital rights management, watermarking, or access control technology applied to our content.
+7.4 Consequences of Infringement
+Violation of this clause will result in immediate permanent account termination without refund, formal legal proceedings under the Copyright Act, 1957 and the Information Technology Act, 2000 - including claims for damages and injunctive relief - and, where applicable, notification to your bar council, employer, or institution.
+We embed digital watermarks and employ forensic tracking tools in all our content. Every piece of content accessed through the Platform is traceable to the User account that accessed it.
+7.5 Piracy Reporting Bounty
+Users who provide verifiable, actionable evidence of piracy that results in a confirmed takedown or enforcement action will receive a credit of INR 5,000 in Platform credits. Reports should be submitted to ip@vedarclegal.com.
+8. Confidentiality
+All content delivered through the Platform - including course materials, live session discussions, mentor communications, and cohort group exchanges - is confidential. By accessing the Platform, you undertake to:
+• treat all Platform content and session discussions as strictly confidential;
+• not disclose, reproduce, or share any Platform content or session content externally, whether in writing, verbally, or through any digital medium;
+• not record, screenshot, or otherwise capture live session content;
+• not share with any third party the substance of any mentorship communication or cohort discussion without the express consent of all participants.
+This obligation of confidentiality survives the termination of your account and the expiry of your Access Period.
+9. User Conduct
+You agree to use the Platform lawfully and professionally. You must not engage in harassment, hate speech, defamation, impersonation, spam, or any unlawful conduct through any Platform channel. You must not use automated tools to extract data from the Platform. In live sessions and community spaces, you must not solicit clients, advertise external services, or promote competing educational products.
+We reserve the right to remove content, suspend community access, or permanently terminate accounts in response to violations of this clause. No refund will be issued upon termination for misconduct.
+10. Disclaimer and Limitation of Liability
+10.1 Platform Provided As Is
+The Platform and all content are provided on an "as is" basis without warranty of any kind. We do not warrant that the Platform will be error-free, uninterrupted, or free from viruses or other harmful components.
+10.2 No Legal Advice
+Content on the Platform is for educational and professional development purposes only. It does not constitute legal advice, and no advocate-client relationship is created by your use of the Platform.
+10.3 No Career Guarantee
+We make no representation or guarantee of any specific professional advancement, employment outcome, increase in income, or expansion of practice resulting from completion of any programme. Career outcomes depend on individual effort, skill, and market conditions entirely outside our control.
+10.4 Liability Cap
+To the fullest extent permitted by law, our total liability to you for any claim arising under or in connection with these Terms shall not exceed the total fees paid by you to Vedarc Legal in the three (3) months immediately preceding the event giving rise to the claim.
+10.5 No Consequential Loss
+We shall not be liable for any indirect, incidental, consequential, or punitive loss, including loss of business, profit, or data, however arising.
+10.6 Force Majeure
+We shall not be liable for any failure or delay in performance caused by circumstances beyond our reasonable control, including natural disasters, pandemics, government action, power outages, or cyberattacks.
+11. Indemnification
+You agree to indemnify and hold harmless Vedarc Legal, its proprietor, employees, mentors, and agents against any claim, liability, loss, cost, or expense (including legal fees) arising from your use of the Platform, your breach of these Terms, or your violation of any applicable law or third-party right.
+12. Account Suspension and Termination
+We may suspend or terminate your account immediately and without prior notice if you materially breach these Terms, engage in fraudulent or unlawful conduct, or act in a manner harmful to other users or the integrity of the Platform. Termination for cause carries no entitlement to a refund.
+You may close your account at any time by writing to support@vedarclegal.com. Closure does not entitle you to a refund. All licences granted to you terminate immediately upon closure.
+The following obligations survive termination: Intellectual Property (Clause 7), Confidentiality (Clause 8), Limitation of Liability (Clause 10), Indemnification (Clause 11), and Governing Law and Disputes (Clause 13).
+13. Governing Law and Disputes
+These Terms are governed by the laws of India. Any dispute arising out of or in connection with these Terms shall be submitted to binding arbitration under the Arbitration and Conciliation Act, 1996. Arbitration shall be conducted before a sole arbitrator seated in Delhi, in the English language. The arbitral award shall be final and binding. Each party bears its own costs unless the arbitrator directs otherwise.
+Nothing in this clause prevents either party from seeking urgent interim relief from the courts of Delhi. For any non-arbitrable matter, the parties submit to the exclusive jurisdiction of the courts of Delhi, India.
+All disputes must be resolved individually. You waive any right to participate in any class action or collective proceeding against Vedarc Legal.
+14. Amendments and Continued Use
+We may update these Terms at any time. Where changes are material, we will provide at least 15 days' prior notice by email to your registered address or by a notice on the Platform. Your continued use of the Platform after that notice period constitutes your unconditional acceptance of the revised Terms. If you do not accept the revised Terms, you must cease use and close your account.
+15. Contact
+For all queries, notices, or complaints under these Terms:
+• General support: support@vedarclegal.com
+• Intellectual property and piracy: ip@vedarclegal.com
+• Grievances: grievance@vedarclegal.com
+• Legal and B2B enquiries: legal@vedarclegal.com
+
+These Terms should be reviewed by a qualified legal practitioner before publication or enforcement.
+Vedarc Legal  |  Terms and Conditions
+
+vedarclegal.com	Page 
+

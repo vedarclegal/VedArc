@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { Seal } from './Seal';
+import { BrandLogo } from './BrandLogo';
 import { editorial } from '../../lib/motion';
 
 const KEY = 'vedarc-seen-seal-v1';
@@ -66,7 +66,7 @@ export function SealOverture() {
             exit={{ scale: 0.4, y: -200, x: -400, opacity: 0 }}
             transition={{ duration: 0.8, ease: editorial }}
           >
-            <Seal size={220} animated />
+            <BrandLogo className="h-auto w-[280px] max-w-[72vw] drop-shadow-[0_10px_24px_rgba(14,15,18,0.12)]" />
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -74,7 +74,7 @@ export function SealOverture() {
             transition={{ delay: 1.2, duration: 0.5 }}
             className="absolute bottom-12 left-1/2 -translate-x-1/2 micro"
           >
-            VedArc Legal · MMXXVI
+            VedArc Legal · 2026
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}

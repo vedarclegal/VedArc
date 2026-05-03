@@ -35,20 +35,13 @@ export default function Home() {
 
       {/* HERO */}
       <section ref={heroRef} className="relative min-h-[100svh] overflow-hidden">
-        {/* Decorative number marker, large faded in corner */}
-        <div className="pointer-events-none absolute right-6 top-24 select-none lg:right-12">
-          <span className="font-display italic text-[120px] sm:text-[180px] lg:text-[240px] leading-none text-brass/[0.07]">
-            I
-          </span>
-        </div>
-
         <motion.div
           style={{ y: heroY, opacity: heroOpacity, filter: heroBlur }}
           className="container-editorial relative flex min-h-[100svh] flex-col justify-end pt-24 pb-20"
         >
           <div className="flex items-center justify-between mb-12">
-            <Eyebrow numeral="I">An Introduction</Eyebrow>
-            <span className="micro hidden md:inline-block">Est. MMXXVI · New Delhi</span>
+            <Eyebrow>An Introduction</Eyebrow>
+            <span className="micro hidden md:inline-block">Est. 2026 · New Delhi</span>
           </div>
 
           <SplitHeading
@@ -77,9 +70,9 @@ export default function Home() {
           <div className="mt-10 grid gap-10 md:grid-cols-12">
             <Reveal delay={1.3} className="md:col-span-6 lg:col-span-5">
               <p className="text-body-lg text-text/85 text-pretty">
-                A practice-driven upskilling platform for the legal professionals India will rely on next —
-                in-house counsel managing disputes, advocates writing the next generation of contracts,
-                and the law schools teaching them.
+                A practice-driven upskilling and cross-skilling platform for the legal professionals India
+                will rely on next — in-house counsel managing disputes, advocates building advisory
+                capability, and law schools preparing students for practice.
               </p>
             </Reveal>
             <Reveal delay={1.5} className="md:col-span-5 md:col-start-8 flex md:justify-end items-end">
@@ -136,7 +129,7 @@ export default function Home() {
         <div className="container-editorial">
           <div className="grid gap-12 lg:grid-cols-12">
             <div className="lg:col-span-4 lg:sticky lg:top-32 self-start">
-              <Eyebrow numeral="II">The Approach</Eyebrow>
+              <Eyebrow>The Approach</Eyebrow>
               <Reveal>
                 <h2 className="font-display text-display-md mt-6 leading-[1.05] text-balance">
                   Knowledge that is structured, applicable, and quietly evolving.
@@ -153,16 +146,9 @@ export default function Home() {
             <div className="lg:col-span-8">
               <ul className="grid gap-px bg-rule sm:grid-cols-2">
                 {site.pillars.map((p, i) => (
-                  <Reveal as="li" key={p.numeral} delay={i * 0.08} className="bg-bg p-8 lg:p-10 group relative overflow-hidden">
-                    <div className="flex items-baseline justify-between mb-6">
-                      <span className="font-mono text-[11px] uppercase tracking-widest text-brass">
-                        {p.numeral}
-                      </span>
-                      <motion.span
-                        className="h-px bg-brass/40"
-                        initial={{ width: 16 }}
-                        whileHover={{ width: 64 }}
-                      />
+                  <Reveal as="li" key={p.title} delay={i * 0.08} className="bg-bg p-8 lg:p-10 group relative overflow-hidden">
+                    <div className="flex items-baseline justify-end mb-6">
+                      <motion.span className="h-px bg-brass/40" initial={{ width: 16 }} whileHover={{ width: 64 }} />
                     </div>
                     <h3 className="font-display text-2xl lg:text-[28px] leading-tight transition-transform duration-500 group-hover:-translate-y-0.5">
                       {p.title}
@@ -186,7 +172,7 @@ export default function Home() {
       {/* WHO WE SERVE */}
       <section className="py-32 lg:py-44">
         <div className="container-editorial">
-          <Eyebrow numeral="III">Who We Serve</Eyebrow>
+          <Eyebrow>Who We Serve</Eyebrow>
           <div className="mt-8 grid gap-10 lg:grid-cols-12">
             <Reveal className="lg:col-span-7">
               <h2 className="font-display text-display-md leading-[1.05] text-balance">
@@ -231,7 +217,7 @@ export default function Home() {
         <div className="container-editorial">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
             <div>
-              <Eyebrow numeral="IV">The Programs</Eyebrow>
+              <Eyebrow>The Programs</Eyebrow>
               <Reveal>
                 <h2 className="mt-6 font-display text-display-md leading-[1.05] text-balance max-w-3xl">
                   Cross-skilling, end to end. Litigation for the corporate; advisory for the litigator.
@@ -274,7 +260,7 @@ export default function Home() {
       {testimonials[0] && (
         <section className="py-32 lg:py-44">
           <div className="container-editorial max-w-5xl">
-            <Eyebrow numeral="V">In Their Words</Eyebrow>
+            <Eyebrow>In Their Words</Eyebrow>
             <Reveal>
               <blockquote className="mt-12">
                 <motion.span
@@ -320,7 +306,7 @@ export default function Home() {
             </div>
             <div className="relative grid gap-10 lg:grid-cols-12 lg:items-end">
               <div className="lg:col-span-8">
-                <Eyebrow numeral="VI" className="text-ivory/70">
+                <Eyebrow className="text-ivory/70">
                   Begin
                 </Eyebrow>
                 <h2 className="mt-6 font-display text-display-lg leading-[1] italic text-balance">

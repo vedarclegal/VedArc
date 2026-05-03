@@ -12,11 +12,11 @@ import { editorial } from '../lib/motion';
 
 type Track = 'all' | 'individual' | 'corporate' | 'academic';
 
-const tabs: { id: Track; label: string; numeral: string }[] = [
-  { id: 'all', label: 'All Programs', numeral: 'I' },
-  { id: 'individual', label: 'Individual', numeral: 'II' },
-  { id: 'corporate', label: 'Corporate', numeral: 'III' },
-  { id: 'academic', label: 'Academic', numeral: 'IV' },
+const tabs: { id: Track; label: string }[] = [
+  { id: 'all', label: 'All Programs' },
+  { id: 'individual', label: 'Individual' },
+  { id: 'corporate', label: 'Corporate' },
+  { id: 'academic', label: 'Academic' },
 ];
 
 export default function Programs() {
@@ -32,10 +32,7 @@ export default function Programs() {
       </Helmet>
 
       <section className="container-editorial py-24 lg:py-40 relative overflow-hidden">
-        <div className="pointer-events-none absolute right-6 top-12 select-none lg:right-12">
-          <span className="font-display italic text-[120px] sm:text-[180px] lg:text-[260px] leading-none text-brass/[0.07]">III</span>
-        </div>
-        <Eyebrow numeral="III">The Programs</Eyebrow>
+        <Eyebrow>The Programs</Eyebrow>
         <div className="mt-10">
           <SplitHeading as="h1" text="Cross-skilling for" className="text-display-lg leading-[0.95] tracking-tight" />
           <SplitHeading as="h1" text="modern legal practice." className="text-display-lg leading-[0.95] tracking-tight italic text-text/85" delay={0.18} italic />
@@ -65,7 +62,6 @@ export default function Programs() {
                   className="relative px-4 py-2 font-mono text-[11px] uppercase tracking-widest text-text/70 hover:text-text transition-colors"
                   data-cursor="link"
                 >
-                  <span className="text-brass mr-2">{t.numeral}</span>
                   {t.label}
                   {active && (
                     <motion.span

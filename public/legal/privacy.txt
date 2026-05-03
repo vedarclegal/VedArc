@@ -1,0 +1,66 @@
+﻿VEDARC LEGAL
+PRIVACY POLICY
+
+Effective Date: 3 May 2026
+Last Updated: 3 May 2026
+Applies to: All users of the Vedarc Legal platform
+
+By continuing to use the Vedarc Legal platform after the Last Updated date above, you accept these terms as binding. If you do not agree, you must cease use of the Platform immediately.
+
+Vedarc Legal is committed to protecting your personal data. This Privacy Policy explains what data we collect, why we collect it, how we use and protect it, and your rights. This Policy complies with the Digital Personal Data Protection Act, 2023 ("DPDPA 2023"). Vedarc Legal is the Data Fiduciary in respect of all personal data processed through the Platform.
+This Policy should be read alongside our Terms and Conditions, Cookie Policy, and Intellectual Property Policy, which are available as separate linked documents on the Platform.
+1. Data We Collect
+1.1 Identity and Contact Data
+• Full name, email address, and mobile number provided at registration.
+• Professional details voluntarily provided, such as bar enrolment number or employer name.
+• Where required for verification: government-issued identification details (Aadhaar or PAN reference).
+1.2 Payment Data
+• UPI transaction reference numbers and payment confirmation details.
+• We do not collect, store, or have access to your UPI PIN, bank account number, or any other sensitive payment credentials.
+1.3 Usage and Technical Data
+• IP address, browser type, operating system, and device identifiers.
+• Pages visited, session duration, course progress, and interaction data within the Platform.
+• Timestamps of login, content access, and live session participation.
+1.4 Communications Data
+• Messages sent to us via email or support channels.
+• Contributions made in any community forums or discussion features on the Platform.
+1.5 B2B Client Data
+Where we engage with a corporate or institutional client, we may collect the contact details of designated representatives and participant lists for enrolment. Such data is processed in accordance with the relevant B2B agreement.
+2. How We Use Your Data
+We process personal data on the following legal bases:
+• Contract performance: to activate and manage your enrolment, deliver course content and live sessions, process payments, and provide customer support.
+• Legitimate interests: to operate and improve the Platform, monitor security, enforce our Terms, and develop new educational offerings.
+• Legal compliance: to meet our obligations under applicable law, including tax legislation, and to respond to lawful regulatory requests.
+• Consent: to send you marketing communications and updates about new programmes. You may withdraw consent at any time by clicking 'unsubscribe' in any marketing email or writing to privacy@vedarclegal.com. Withdrawal of consent does not affect the lawfulness of prior processing.
+3. Sharing Your Data
+We share personal data only as follows:
+• Service providers: with third-party providers necessary to operate the Platform, including payment infrastructure, cloud hosting, video delivery, and email tools. These processors may use your data only as instructed by us.
+• B2B Clients: where you are enrolled through a corporate or institutional arrangement, relevant progress and participation data may be shared with your employer or institution as disclosed at enrolment.
+• Legal disclosure: where required by applicable law, court order, or lawful regulatory direction.
+We do not sell, rent, trade, or otherwise transfer your personal data to any third party for their own commercial or marketing purposes, under any circumstances.
+4. Your Rights
+Under the DPDPA 2023, you have the following rights, exercisable by contacting privacy@vedarclegal.com:
+• Right of access: to receive confirmation that we hold data about you and to obtain a copy.
+• Right to correction: to have inaccurate or incomplete data corrected.
+• Right to erasure: to request deletion of your data, subject to our legal retention obligations.
+• Right to withdraw consent: where processing is based on consent, to withdraw that consent at any time.
+• Right to grievance redressal: to raise a complaint with our Grievance Officer or, if unresolved, with the Data Protection Board of India.
+We will respond to all verified requests within 30 days.
+5. Data Retention
+We retain your personal data for as long as your account is active and for five (5) years thereafter to meet legal, regulatory, and tax obligations. Following the retention period, data is securely deleted or anonymised. Accounts inactive for 24 consecutive months may be closed following prior notice, with associated data deleted or anonymised accordingly.
+6. Security
+We implement appropriate technical and organisational measures to protect your data, including AES-256 encryption for stored data, TLS encryption for data in transit, and role-based access controls. In the event of a personal data breach likely to result in risk to you, we will notify the Data Protection Board of India and affected users within 72 hours of becoming aware.
+7. International Transfers
+Your data may be transferred to and processed outside India in the course of cloud hosting or technical service delivery. Where this occurs, we apply appropriate contractual and technical safeguards to ensure equivalent protection under Indian law.
+8. Prohibition on Use for AI Training
+No data or content obtained from the Platform may be used - whether through automated or manual means - to develop, train, fine-tune, or evaluate any artificial intelligence, machine learning, or large language model system, without our express prior written consent.
+9. Grievance Officer
+Our Grievance Officer can be contacted at grievance@vedarclegal.com. Complaints will be acknowledged within 24 hours and resolved within 30 days. Unresolved complaints may be escalated to the Data Protection Board of India or the relevant consumer forum.
+10. Amendments and Continued Use
+We may update this Privacy Policy at any time. Material changes will be notified by email and/or a Platform notice with reasonable advance notice. Your continued use of the Platform following such notice constitutes your acceptance of the revised Policy.
+
+This Privacy Policy should be reviewed by a qualified legal practitioner before publication, particularly in respect of DPDPA 2023 compliance obligations.
+Vedarc Legal  |  Privacy Policy
+
+vedarclegal.com	Page 
+

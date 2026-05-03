@@ -46,15 +46,8 @@ export default function ProgramDetail() {
       <div ref={articleRef}>
         {/* HERO */}
         <section className="container-editorial py-24 lg:py-36 relative overflow-hidden">
-          <div className="pointer-events-none absolute right-0 top-12 select-none">
-            <span className="font-display italic text-[160px] lg:text-[280px] leading-none text-brass/[0.06]">
-              {program.serial.split('/')[1]?.trim()}
-            </span>
-          </div>
           <div className="flex items-center justify-between mb-10">
-            <Eyebrow numeral={program.serial.split('/')[1]?.trim()}>
-              {program.audience}
-            </Eyebrow>
+            <Eyebrow>{program.audience}</Eyebrow>
             <Link to="/programs" className="micro editorial-link" data-cursor="link">
               ← All programs
             </Link>

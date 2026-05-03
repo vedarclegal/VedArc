@@ -22,7 +22,7 @@ export function SplitHeading({ text, className, delay = 0, as = 'h2', italic }: 
       <span className="sr-only">{text}</span>
       <span aria-hidden="true" className="block">
         {words.map((w, i) => (
-          <span key={i} className="inline-block overflow-hidden align-bottom pr-[0.22em] last:pr-0">
+          <span key={i} className="mb-[-0.18em] inline-block overflow-hidden pb-[0.18em] align-bottom pr-[0.22em] last:pr-0">
             <motion.span
               initial={{ y: '110%' }}
               animate={inView ? { y: '0%' } : undefined}

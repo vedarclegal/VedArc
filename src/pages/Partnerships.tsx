@@ -7,15 +7,13 @@ import { Eyebrow } from '../components/primitives/Eyebrow';
 import { BrassRule } from '../components/primitives/BrassRule';
 import { MagneticButton } from '../components/primitives/MagneticButton';
 import { Spotlight } from '../components/primitives/Spotlight';
-import { Counter } from '../components/primitives/Counter';
 import { editorial } from '../lib/motion';
 
 const models = [
   {
-    numeral: 'I',
     name: 'Corporate Partnerships',
     objective:
-      'Upskill your in-house legal team with practical litigation, advisory, and risk-management expertise.',
+      'Upskill and cross-skill in-house teams with practical litigation, advisory, and risk-management expertise.',
     offerings: [
       'Hands-on modules for litigation, dispute resolution, contract risk',
       'Advisory programs for commercial decision-making and drafting',
@@ -25,7 +23,6 @@ const models = [
     cta: 'Request Corporate Training',
   },
   {
-    numeral: 'II',
     name: 'Academic Partnerships',
     objective:
       'Prepare law students with practice-ready skills in contracts, advisory, and litigation.',
@@ -38,7 +35,6 @@ const models = [
     cta: 'Collaborate with Us',
   },
   {
-    numeral: 'III',
     name: 'Strategic Alliances',
     objective:
       'Collaborate with law firms, professional networks, and industry associations to co-create or deliver programs.',
@@ -52,10 +48,10 @@ const models = [
 ];
 
 const howWeWork = [
-  { numeral: 'I', label: 'Tailored Programs', body: 'Designed around organisational priorities, sector, or academic objectives.' },
-  { numeral: 'II', label: 'Flexible Delivery', body: 'Online, on-campus, or hybrid programs to suit your schedule and audience.' },
-  { numeral: 'III', label: 'Practical Learning', body: 'Case studies, real disputes, advisory exercises, and contract simulations.' },
-  { numeral: 'IV', label: 'Measurable Outcomes', body: 'Feedback, assessments, and certifications to quantify learning impact.' },
+  { label: 'Tailored Programs', body: 'Designed around organisational priorities, sector, or academic objectives.' },
+  { label: 'Flexible Delivery', body: 'Online, on-campus, or hybrid programs to suit your schedule and audience.' },
+  { label: 'Practical Learning', body: 'Case studies, real disputes, advisory exercises, and contract simulations.' },
+  { label: 'Measurable Outcomes', body: 'Feedback, assessments, and progress visibility to quantify learning impact.' },
 ];
 
 export default function Partnerships() {
@@ -71,45 +67,22 @@ export default function Partnerships() {
       </Helmet>
 
       <section ref={heroRef} className="container-editorial py-24 lg:py-40 relative overflow-hidden">
-        <div className="pointer-events-none absolute right-6 top-12 select-none lg:right-12">
-          <span className="font-display italic text-[120px] sm:text-[180px] lg:text-[260px] leading-none text-brass/[0.07]">IV</span>
-        </div>
         <motion.div style={{ y: heroY }}>
-          <Eyebrow numeral="IV">Partner with VedArc Legal</Eyebrow>
+          <Eyebrow>Partnerships</Eyebrow>
           <div className="mt-10 max-w-5xl">
-            <SplitHeading as="h1" text="Unlock the full" className="text-display-lg leading-[0.95] tracking-tight" />
-            <SplitHeading as="h1" text="potential of your" className="text-display-lg leading-[0.95] tracking-tight italic text-text/85" delay={0.18} italic />
-            <SplitHeading as="h1" text="legal teams." className="text-display-lg leading-[0.95] tracking-tight" delay={0.34} />
+            <SplitHeading as="h1" text="From Bar Rooms" className="text-display-lg leading-[0.95] tracking-tight" />
+            <SplitHeading as="h1" text="to Legal Heads." className="text-display-lg leading-[0.95] tracking-tight italic text-text/85" delay={0.18} italic />
           </div>
           <Reveal delay={0.7}>
             <p className="mt-12 max-w-2xl text-text/80">
-              Practice-driven, cross-skilling programs designed for the modern Indian legal ecosystem —
-              for organisations, institutions, and professional networks.
+              Practice-driven upskilling and cross-skilling programs for organisations, universities,
+              institutions, and professional networks across the Indian legal ecosystem.
             </p>
           </Reveal>
           <div className="mt-12 max-w-3xl">
             <BrassRule duration={1.4} delay={0.9} />
           </div>
         </motion.div>
-      </section>
-
-      {/* MEASURE */}
-      <section className="border-y border-rule/60 py-14">
-        <div className="container-editorial grid grid-cols-2 gap-y-10 sm:grid-cols-3">
-          {[
-            { n: 3, label: 'Partnership models' },
-            { n: 4, label: 'Audience tracks' },
-            { n: 100, label: 'Customised', suffix: '%' },
-          ].map((s, i) => (
-            <Reveal key={s.label} delay={i * 0.06} className="text-center sm:text-left">
-              <p className="micro mb-3 text-brass">{String(i + 1).padStart(2, '0')}</p>
-              <p className="font-display text-[44px] md:text-[64px] leading-none italic" style={{ fontVariationSettings: '"opsz" 144' }}>
-                <Counter to={s.n} suffix={s.suffix ?? ''} />
-              </p>
-              <p className="mt-3 text-text/70 text-[15px]">{s.label}</p>
-            </Reveal>
-          ))}
-        </div>
       </section>
 
       {/* WHY PARTNER */}
@@ -119,7 +92,7 @@ export default function Partnerships() {
             <Eyebrow>Why Partner</Eyebrow>
             <Reveal>
               <h2 className="mt-6 font-display text-display-sm leading-tight italic">
-                In-house counsel experience meets courtroom acumen.
+                We do not teach. We upskill and cross-skill.
               </h2>
             </Reveal>
           </div>
@@ -129,12 +102,11 @@ export default function Partnerships() {
               ['Practice-Oriented', 'Real disputes, contracts, advisory scenarios — practical competence.'],
               ['Scalable & Flexible', 'Tailored for corporates, universities, law schools, networks.'],
               ['Indian Legal Context', 'Aligned with statutes, tribunals, governance, procedure.'],
-              ['Measurable Impact', 'Outcome-focused with feedback, tracking, and certification.'],
+              ['Measurable Impact', 'Outcome-focused with feedback, tracking, and practical application.'],
               ['Long-Term Value', 'Programs built to deepen capability — not chase a certificate.'],
             ].map(([title, body], i) => (
               <Reveal as="li" key={title} delay={i * 0.05} className="bg-bg group relative overflow-hidden">
                 <Spotlight className="p-6 lg:p-8" color="rgba(181, 137, 74, 0.1)" size={300}>
-                  <span className="micro text-brass">0{i + 1}</span>
                   <h3 className="mt-3 font-display text-xl italic">{title}</h3>
                   <p className="mt-2 text-text/75 text-[15px]">{body}</p>
                 </Spotlight>
@@ -147,30 +119,14 @@ export default function Partnerships() {
       {/* MODELS - alternating full bleed */}
       {models.map((m, i) => (
         <section
-          key={m.numeral}
+          key={m.name}
           className={i % 2 === 1 ? 'bg-surface/60 py-32 lg:py-44 relative overflow-hidden' : 'py-32 lg:py-44 relative overflow-hidden'}
         >
-          <div className="pointer-events-none absolute select-none" style={{
-            left: i % 2 === 1 ? 'auto' : '-2rem',
-            right: i % 2 === 1 ? '-2rem' : 'auto',
-            top: '4rem',
-          }}>
-            <motion.span
-              initial={{ opacity: 0, x: i % 2 === 1 ? 100 : -100 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: '-15%' }}
-              transition={{ duration: 1.2, ease: editorial }}
-              className="block font-display italic text-[180px] lg:text-[320px] leading-none text-brass/[0.06]"
-            >
-              {m.numeral}
-            </motion.span>
-          </div>
           <div className="container-editorial relative">
             <div className="grid gap-12 lg:grid-cols-12">
               <div className="lg:col-span-5">
-                <Eyebrow numeral={m.numeral}>Partnership Model</Eyebrow>
                 <Reveal>
-                  <h2 className="mt-6 font-display text-display-md leading-[1.05] italic">
+                  <h2 className="font-display text-display-md leading-[1.05] italic">
                     {m.name}
                   </h2>
                 </Reveal>
@@ -205,9 +161,6 @@ export default function Partnerships() {
                           transition={{ duration: 0.6, delay: 0.1 + oi * 0.05, ease: editorial }}
                         />
                       </motion.svg>
-                      <span className="font-mono text-[11px] uppercase tracking-widest text-brass/80 w-8 shrink-0">
-                        0{oi + 1}
-                      </span>
                       <span className="text-text/90">{o}</span>
                     </div>
                   </Reveal>
@@ -220,7 +173,7 @@ export default function Partnerships() {
 
       {/* HOW WE WORK */}
       <section className="container-editorial py-32">
-        <Eyebrow numeral="V">How We Work</Eyebrow>
+        <Eyebrow>How We Work</Eyebrow>
         <Reveal>
           <h2 className="mt-6 font-display text-display-md leading-[1.05] max-w-3xl">
             Customised, practical, and outcome-oriented.
@@ -228,9 +181,8 @@ export default function Partnerships() {
         </Reveal>
         <ol className="mt-16 grid gap-px bg-rule sm:grid-cols-2 lg:grid-cols-4 relative">
           {howWeWork.map((s, i) => (
-            <Reveal as="li" key={s.numeral} delay={i * 0.07} className="bg-bg p-8 lg:p-10 group relative overflow-hidden">
-              <span className="font-mono text-[11px] uppercase tracking-widest text-brass">{s.numeral}</span>
-              <h3 className="mt-6 font-display text-2xl italic transition-transform duration-500 group-hover:-translate-y-0.5">
+            <Reveal as="li" key={s.label} delay={i * 0.07} className="bg-bg p-8 lg:p-10 group relative overflow-hidden">
+              <h3 className="font-display text-2xl italic transition-transform duration-500 group-hover:-translate-y-0.5">
                 {s.label}
               </h3>
               <p className="mt-3 text-text/75 text-[15px]">{s.body}</p>
@@ -244,7 +196,7 @@ export default function Partnerships() {
       {/* CTA */}
       <section className="container-editorial py-32">
         <Spotlight className="bg-indigo text-ivory px-8 py-20 lg:px-20 lg:py-28" color="rgba(181, 137, 74, 0.2)" size={520}>
-          <Eyebrow numeral="VI" className="text-ivory/70">Begin</Eyebrow>
+          <Eyebrow className="text-ivory/70">Begin</Eyebrow>
           <h2 className="mt-6 font-display text-display-md italic max-w-3xl text-balance">
             Schedule a partnership discussion.
           </h2>
